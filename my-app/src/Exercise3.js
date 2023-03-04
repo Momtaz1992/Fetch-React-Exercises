@@ -9,7 +9,7 @@ const Exercise3 = () => {
         })
        return ( 
         <>
-                <h1>Exercise 3 :</h1>
+                <h1>Exercise 3:</h1>
                 <ul>{user.map(User=>(
                         <li key={User.id}>
                                 <h2>Title: {User.title}</h2>
